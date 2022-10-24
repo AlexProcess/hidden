@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Nickname';
+  src: url('../src/assets/fonts/Nickname\ DEMO.otf');
+  font-weight: 100;
+}
+
+
+ul,li {
+  list-style-type:none;
+}
+
+a:link, a:visited {
+text-decoration:none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body{
+  background-color: #fca120;
+  font-family: Nickname;
+}

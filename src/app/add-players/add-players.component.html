@@ -1,0 +1,18 @@
+<div *ngFor="let list of lista" class="add-players__container">
+
+  {{ list.title }}
+  <button (click)="resta()" class="downCount__btn"><</button>
+  <span class="player__name">{{ list.name }}</span>
+  <button (click)="suma()" class="upCount__btn">></button>
+  <button (click)="remove()" class="delete__btn">X</button>
+  <input
+    [(ngModel)]="addPlayer"
+    placeholder="ADD NEW VALUE"
+    [ngClass]="['father__input']"
+    type="text"
+    />
+    <button (click)="add(addPlayer)" class="father__button">ADD NEW</button>
+    </div>
+
+
+<div></div>
